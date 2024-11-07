@@ -8,7 +8,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Rounded from "../../common/RoundedButton";
 import Magnetic from "../../common/Magnetic";
-// import Marquee from "react-fast-marquee";
 
 export default function Index() {
   const header = useRef(null);
@@ -16,9 +15,9 @@ export default function Index() {
   const pathname = usePathname();
   const button = useRef(null);
 
-  useEffect(() => {
-    if (isActive) setIsActive(false);
-  }, [pathname]);
+  // useEffect(() => {
+  //   if (isActive) setIsActive(false);
+  // }, [pathname]);
 
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -52,9 +51,7 @@ export default function Index() {
   return (
     <>
       <div ref={header} className={styles.header}>
-        <div className={styles.logo}>
-       
-        </div>
+        <div className={styles.logo}></div>
         <div className={styles.nav}>
           <Magnetic>
             <div className={styles.el}>
