@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url(../../public/images/allbg.jpg);
+}
+
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'cursive';
+    src: url('../fonts/Luthon\ Southard\ Script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'kanishk';
+    src: url('../fonts/Thunder-BlackLC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

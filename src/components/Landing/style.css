@@ -1,0 +1,60 @@
+header{
+    position: absolute;
+    display: grid;
+    place-content: center;
+    top: calc(100vh - 450px);
+    left: 280px;
+    height: 100vh;
+  }
+  
+h1{
+    position: relative;
+    font-size: 22rem;
+    text-transform: lowercase;
+    font-family: 'kanishk';
+    font-weight: bolder;
+    -webkit-text-stroke: 2px black;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    line-height: 25rem;
+    letter-spacing: 15px;
+  }
+  
+  .char {
+    transform: translateY(300px);
+    transition: transform 0.5s;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: auto;
+    width: 100%;
+  }
+  
+  #main {
+    width: 100%;
+  }
+  
+  #banner {
+    width: 100%;
+    margin-top: 20vw;
+  }
+  
+  #bimg {
+    width: 80%;
+    height: 200vh;
+    background-color: red;
+  }
+  
+  #bimg img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  
