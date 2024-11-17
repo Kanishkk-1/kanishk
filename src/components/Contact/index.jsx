@@ -89,7 +89,7 @@ export default function Index() {
           </RoundedButton>
           <RoundedButton>
             <a
-              href="ACT\public\resume\Kanishka_Ranjan_Resume (3).pdf"
+              href="ACT\public\Kanishka_Ranjan_Resume.pdf"
               download="Kanishka_Ranjan_Resume.pdf"
             >
               <p>Download Resume</p>
