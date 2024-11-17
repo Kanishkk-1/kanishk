@@ -58,3 +58,35 @@ h1{
     height: 100%;
   }
   
+
+  @media (max-width: 768px) {
+  header {
+    top: 20vh; 
+    left: 5vw;
+  }
+
+  h1 {
+    font-size: 12vw;
+  
+    line-height: 1em;
+    letter-spacing: 0.3vw;
+  }
+
+  .char {
+    transform: translateY(15vh); 
+  }
+}
+
+@media (min-width: 1440px) {
+  header {
+    top: calc(50vh - 80px);
+    left: 25vw;
+  }
+
+  h1 {
+    font-size: 18vw;
+    /* -webkit-text-stroke: 0.3vw black; */
+    line-height: 1.5em;
+    letter-spacing: 1vw;
+  }
+}

@@ -56,8 +56,10 @@ export default function Index() {
               <h2>together</h2>
             </div>
           </span>
-          <motion.div style={{ x }} className={styles.buttonContainer}>
-          </motion.div>
+          <motion.div
+            style={{ x }}
+            className={styles.buttonContainer}
+          ></motion.div>
           <motion.svg
             style={{ rotate, scale: 2 }}
             width="9"
@@ -74,21 +76,25 @@ export default function Index() {
         </div>
         <div className={styles.nav}>
           <RoundedButton>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kanishka.ranjan.9@gmail.com" target="_blank">kanishka.ranjan.9@gmail.com</a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=kanishka.ranjan.9@gmail.com"
+              target="_blank"
+            >
+              kanishka.ranjan.9@gmail.com
+            </a>
           </RoundedButton>
-          
-            <RoundedButton>
-             
-              <p>
-                +91 9525720415
-                </p>  
-            </RoundedButton>
-            <RoundedButton>
-  <a href="/run/media/kanishk/New Volume/portfolio2/ACT/public/resume/tuesdays_with_morrie.pdf" download="tuesdays_with_morrie.pdf">
-    <p>Download Resume</p>
-  </a>
-</RoundedButton>
-    
+
+          <RoundedButton>
+            <p>+91 9525720415</p>
+          </RoundedButton>
+          <RoundedButton>
+            <a
+              href="ACT\public\resume\Kanishka_Ranjan_Resume (3).pdf"
+              download="Kanishka_Ranjan_Resume.pdf"
+            >
+              <p>Download Resume</p>
+            </a>
+          </RoundedButton>
         </div>
       </div>
       <div className={styles.body} id="contact-me">
@@ -109,7 +115,10 @@ export default function Index() {
               </Magnetic>
             </span>
             <Magnetic>
-              <a href="https://www.linkedin.com/in/kanishk-ranjan-b355b7229/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/kanishk-ranjan-b355b7229/"
+                target="_blank"
+              >
                 <p>LinkedIn</p>
               </a>
             </Magnetic>
@@ -121,7 +130,9 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <RoundedButton onClick={scrollToTop}><p>Back to Top</p></RoundedButton>
+      <RoundedButton onClick={scrollToTop}>
+        <p>Back to Top</p>
+      </RoundedButton>
     </motion.div>
   );
 }
