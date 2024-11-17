@@ -89,10 +89,10 @@ export default function Index() {
           </RoundedButton>
           <RoundedButton>
             <a
-              href="ACT\public\Kanishka_Ranjan_Resume.pdf"
+              href="https://drive.google.com/drive/folders/1aFfpIlg4x1c52K1u6BuVVjaKYYCcjSuy"
               download="Kanishka_Ranjan_Resume.pdf"
             >
-              <p>Download Resume</p>
+              <p>Resume</p>
             </a>
           </RoundedButton>
         </div>
