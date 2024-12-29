@@ -17,7 +17,7 @@ import { useMediaQuery } from "react-responsive";
 export default function Index() {
     
   const phrase =
-    "I’m Kanishka Ranjan, a final year undergraduate at NIT Kurukshetra , major in Information Technology, with a passion for web development and scalable technologies. Proficient in React.js, Next.js, Node.js, and cloud services like AWS and Docker. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.";
+    "I’m Kanishka Ranjan, a final year undergraduate at NIT Kurukshetra , major in Information Technology, with a passion for web development and scalable technologies. Proficient in C++,JavaScript ,TypeScript ,React.js, Next.js, Node.js, and cloud services like AWS and Docker. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.";
   const description = useRef(null);
   const isInView = useInView(description);
   return (
