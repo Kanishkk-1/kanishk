@@ -1,4 +1,4 @@
-.introduction{
+.introduction {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -7,29 +7,70 @@
     position: fixed;
     z-index: 99;
     background-color: #141516;
-    svg{
+    overflow: hidden; // Prevent scrolling issues
+
+    svg {
         position: absolute;
         top: 0;
         width: 100%;
         height: calc(100% + 300px);
-        path{
+        
+        @media (max-width: 768px) {
+            height: calc(100% + 150px); // Adjust the extended height for mobile
+        }
+
+        path {
             fill: #141516;
         }
     }
-    p{
+
+    p {
         display: flex;
         color: white;
         font-size: 100px;
         align-items: center;
         position: absolute;
         z-index: 1;
-        span{
+        
+        // Responsive font sizing
+        @media (max-width: 1024px) {
+            font-size: 80px;
+        }
+        
+        @media (max-width: 768px) {
+            font-size: 60px;
+        }
+        
+        @media (max-width: 480px) {
+            font-size: 40px;
+        }
+
+        span {
             display: block;
             width: 10px;
             height: 10px;
             background-color: white;
             border-radius: 50%;
             margin-right: 10px;
+
+            // Adjust dot size for smaller screens
+            @media (max-width: 768px) {
+                width: 8px;
+                height: 8px;
+                margin-right: 8px;
+            }
+            
+            @media (max-width: 480px) {
+                width: 6px;
+                height: 6px;
+                margin-right: 6px;
+            }
         }
+    }
+
+    // Prevent any touch interactions on mobile
+    @media (max-width: 768px) {
+        touch-action: none;
+        -webkit-overflow-scrolling: none;
     }
 }

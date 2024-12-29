@@ -1,42 +1,87 @@
-.project{
+.project {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-image:url(../../../../../public/images/allbg.jpg);
-    padding: 50px 100px 50px 100px;
+    background-image: url(../../../../../public/images/allbg.jpg);
+    padding: 50px 100px;
     border-top: 1px solid rgb(201, 201, 201);
     cursor: pointer;
     transition: all 0.2s;
     flex-direction: column-reverse;
-    @media (max-width: 768px) {
-        flex-direction: column-reverse;
+}
+
+.project h2 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+
+.project p {
+    transition: all 0.4s;
+    font-weight: 300;
+}
+
+.project:last-of-type {
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.project:hover {
+    opacity: 0.5;
+}
+
+.project:hover h2 {
+    transform: translateX(-10px);
+}
+
+.project:hover p {
+    transform: translateX(10px);
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1024px) {
+    .project {
+        padding: 40px 60px;
     }
-    h2{
-        font-size: 60px;
-        margin: 0px;
-        font-weight: 400;
-        transition: all 0.4s;
+
+    .project h2 {
+        font-size: 48px;
+    }
+}
+
+/* Small screens (phones) */
+@media (max-width: 768px) {
+    .project {
+        padding: 30px 20px;
+        text-align: center;
     }
 
-    p{
-        transition: all 0.4s;
-        font-weight: 300;
+    .project h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
     }
 
-    &:last-of-type{
-        border-bottom: 1px solid rgb(201, 201, 201);
+    .project p {
+        font-size: 14px;
     }
 
-    &:hover{
-        opacity: 0.5;
+    .project:hover h2 {
+        transform: translateX(-5px);
+    }
 
-        h2{
-            transform: translateX(-10px);
-        }
+    .project:hover p {
+        transform: translateX(5px);
+    }
+}
 
-        p{
-            transform: translateX(10px);
-        }
+/* Extra small screens */
+@media (max-width: 480px) {
+    .project {
+        padding: 20px 15px;
+    }
+
+    .project h2 {
+        font-size: 28px;
     }
 }

@@ -76,14 +76,14 @@
         display: flex;
         align-items: center;
         font-weight: 500;
-        padding: 35px;
+        padding: 30px;
         .el{
             color: white;
             display: flex;
             flex-direction: column;
             position: relative;
             z-index: 1;
-            padding: 15px;
+            padding: 5px 5px;
             cursor: pointer;
             &:hover{
                 .indicator{

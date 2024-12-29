@@ -17,7 +17,7 @@ import { useMediaQuery } from "react-responsive";
 export default function Index() {
     
   const phrase =
-    "Hi I'm Kanishk .a Full-Stack Developer specializing in building modern and scalable web applications using React, NEXTjs, and TypeScript. With a strong foundation in both front-end and back-end development, I deliver robust solutions characterized by clean interfaces and efficient data management. On the back-end, I excel in NEXTjs ,Node.js, Express.js, MongoDB, and PostgreSQL, with extensive experience working with  REST APIs ";
+    "I’m Kanishka Ranjan, a final year undergraduate at NIT Kurukshetra , major in Information Technology, with a passion for web development and scalable technologies. Proficient in React.js, Next.js, Node.js, and cloud services like AWS and Docker. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.";
   const description = useRef(null);
   const isInView = useInView(description);
   return (

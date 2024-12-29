@@ -80,8 +80,8 @@ const Slide = (props) => {
 const Phrase = ({ src }) => {
   return (
     <div className={styles.skills}>
-    <div className={"px-5 flex gap-5 items-center"}>
-      <p className="text-[7.5vw]">react nodejs express tailwindcss postgres nextjs</p>
+    <div className={"flex gap-5 items-center"}>
+      <p className="text-[7.5vw]">react nodejs express mongodb postgresql nextjs docker aws &nbsp;</p>
     </div>
     </div>
   );

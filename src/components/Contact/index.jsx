@@ -1,4 +1,3 @@
-// pages/Index.js
 import styles from "./style.module.scss";
 import Image from "next/image";
 import RoundedButton from "../../common/RoundedButton";
