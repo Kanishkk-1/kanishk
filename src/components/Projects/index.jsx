@@ -25,7 +25,7 @@ const projects = [
     title: "Portfolio",
     src: "/images/portfolio.png",
     color: "#EFE8D3",
-    link: "",
+    link: "https://kanishk-chi.vercel.app/",
   },
   {
     title: "Sorting Visualizer",
