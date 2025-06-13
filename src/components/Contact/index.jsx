@@ -88,8 +88,8 @@ export default function Index() {
           </RoundedButton>
           <RoundedButton>
             <a
-              href="https://drive.google.com/file/d/1Vk1eEywzFYeK1KkXjPNxXSMAl7pB833z/view?usp=sharing"
-              download="Kanishka_Ranjan_Resume.pdf"
+              href="https://drive.google.com/file/d/1HJglzHG782c2aF1lZutVF7_jjb0af3yW/view?usp=sharing"
+              download="Kanishka_Ranjan_AI_ML_Fullstack.pdf"
             >
               <p>Resume</p>
             </a>
