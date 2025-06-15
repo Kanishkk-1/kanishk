@@ -55,28 +55,38 @@ export default function Home() {
       animate="enter"
       className={styles.landing}
     >
-         {isMobile ? (
+      {isMobile ? (
         <Image
-          src="/images/bg3.jpeg"
-          fill={true}
+          src="/images/generated-image-portrait.png"
+          // style={{ objectFit: "contain" }}
+          width={500}
+          height={500}
+          priority
           alt="background"
         />
       ) : (
-        <Image src="/images/bg3.jpeg"   fill={true} alt="background" />
+        <Image
+          src="/images/generated-image.png"
+          style={{ objectFit: "contain" }}
+          width={900}
+          height={900}
+          priority
+          alt="background"
+        />
       )}
-   
-   <Name /> 
+
+      <Name />
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>Full Stack Web Developer -</p>
           <p ref={secondText}>Full Stack Web Developer -</p>
         </div>
       </div>
-      <div data-scroll data-scroll-speed={0.1} className={styles.description}>
-
-      </div>
-
-        
+      <div
+        data-scroll
+        data-scroll-speed={0.1}
+        className={styles.description}
+      ></div>
     </motion.main>
   );
 }
