@@ -2,7 +2,14 @@
 import React from "react";
 import styles from "./style.module.scss";
 
-export default function index({ index, title, link, manageModal }) {
+export default function Project({
+  index,
+  title,
+  description,
+  link,
+  techStack,
+  manageModal,
+}) {
   return (
     <a href={link} target="_blank" rel="noreferrer">
       <div
@@ -14,8 +21,14 @@ export default function index({ index, title, link, manageModal }) {
         }}
         className={styles.project}
       >
+        {/* Description at the top */}
+        {description && <p className={styles.description}>{description}</p>}
         <h2>{title}</h2>
-        <p>Design & Development</p>
+        {/* <p>Design & Development</p> */}
+        {/* Tech stack below title and description */}
+        {techStack && (
+          <p className={styles.techStack}>{techStack.join(", ")}</p>
+        )}
       </div>
     </a>
   );

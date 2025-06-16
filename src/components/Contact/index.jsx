@@ -48,7 +48,7 @@ export default function Index() {
         <div className={styles.title}>
           <span>
             <div className={styles.imageContainer}>
-              <Image fill={true} alt={"image"} src={`/images/bg2.jpg`} />
+              <Image fill={true} alt={"image"} src={`/images/generated-image.png`} />
             </div>
             <div>
               <h2>Let&apos;s work</h2>

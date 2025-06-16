@@ -8,12 +8,13 @@
     border-top: 1px solid rgb(201, 201, 201);
     cursor: pointer;
     transition: all 0.2s;
-    flex-direction: column-reverse;
+    flex-direction: column; /* Changed from column-reverse */
 }
 
 .project h2 {
     font-size: 60px;
     margin: 0;
+    order: 2; /* Title comes second */
     font-weight: 400;
     transition: all 0.4s;
 }
@@ -21,6 +22,24 @@
 .project p {
     transition: all 0.4s;
     font-weight: 300;
+}
+
+/* Description specific styling */
+.description {
+    order: 1; /* Description comes first */
+    font-size: 1em;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+/* Tech stack specific styling */
+.techStack {
+    color: #888;
+    font-size: 0.85em;
+    margin-top: 8px;
+    font-style: italic;
+    order: 3; /* Tech stack comes last */
 }
 
 .project:last-of-type {

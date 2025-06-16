@@ -10,28 +10,85 @@ import Script from "next/script";
 
 const projects = [
   {
-    title: "Online Banking Web App",
+    title: "JARVIS-Voice Assistant",
+    description:
+      "An AI-powered voice assistant built with Python and GPT-3, achieving 95% voice recognition accuracy with sub-1.5 second response times.",
+    src: "/images/jarvis.png",
+    color: "#000000",
+    link: "https://github.com/Kanishkk-1/JARVIS---Voice-Assistant",
+    techStack: ["Machine Learning", "Gemini API", "Voice Recognition"],
+  },
+  {
+    title: "Pixel Alchemy",
+    description:
+      "An AI-driven text-to-image generation platform using Gemini API with integrated payment system and real-time image creation capabilities.",
+    src: "/images/pixel.png",
+    color: "#000000",
+    link: "https://github.com/Kanishkk-1/PixelAlchemy",
+    techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "OpenAI API"],
+  },
+  {
+    title: "Doodle Space",
+    description:
+      "A real-time collaborative drawing application built with MERN stack and Socket.io for seamless whiteboard sharing and synchronization.",
+    src: "/images/doodle.png",
+    color: "#000000",
+    link: "https://github.com/Kanishkk-1/DoodleSpace",
+    techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.io"],
+  },
+  {
+    title: "Agro-Tech Website",
+    description:
+      "A comprehensive agricultural platform featuring crop recommendations, fertilizer predictions, and CNN-based plant disease identification across 38 classes.",
+    src: "/images/agro.png",
+    color: "#000000",
+    link: "https://github.com/Kanishkk-1/Agro-tech",
+    techStack: [
+      "React.js",
+      "Node.js",
+      "Flask",
+      "MongoDB",
+      "Firebase",
+      "Naïve Bayes",
+      "Random Forest",
+      "CNN",
+    ],
+  },
+  {
+    title: "Horizon-Banking Web App",
+    description:
+      "A comprehensive financial SaaS platform built with Next.js and TypeScript, featuring multi-bank account integration, real-time transactions, and secure fund transfers via Plaid and Dwolla APIs",
     src: "/images/Horizon.png",
     color: "#000000",
     link: "https://banking-jet.vercel.app/",
+    techStack: ["NEXTjs", "TypeScript", "Plaid API", "Dwolla API"],
   },
   {
     title: "Gamble Gains",
+    description:
+      "An engaging gambling platform developed with React.js and Tailwind CSS, featuring interactive games like Dice, Mines, and Hi-Lo with modern responsive design",
     src: "/images/stake.png",
     color: "#8C8C8C",
     link: "https://gamble-gains.vercel.app/",
+    techStack: ["React.js"],
   },
   {
     title: "Portfolio",
+    description:
+      "A modern, interactive portfolio website showcasing projects with dynamic animations and responsive design.",
     src: "/images/portfolio.png",
     color: "#EFE8D3",
     link: "https://kanishk-chi.vercel.app/",
+    // techStack: ],
   },
   {
     title: "Sorting Visualizer",
+    description:
+      "Educational tool that visualizes various sorting algorithms in real-time, helping users understand algorithmic concepts through interactive demonstrations.",
     src: "/images/sv.png",
     color: "#706D63",
     link: "https://sorting-visualizer-mtis.vercel.app/",
+    techStack: ["JavaScript"],
   },
 ];
 
@@ -128,7 +185,9 @@ export default function Home() {
             <Project
               index={index}
               title={project.title}
+              description={project.description}
               link={project.link}
+              techStack={project.techStack}
               manageModal={manageModal}
               key={index}
             />
@@ -142,9 +201,7 @@ export default function Home() {
         data-tf-iframe-props="title=Client Details and Project Requirements Form"
         data-tf-transitive-search-params
         data-tf-medium="snippet"
-      >
-      
-      </button>
+      ></button>
       <>
         <motion.div
           ref={modalContainer}
