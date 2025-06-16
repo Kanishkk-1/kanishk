@@ -8,7 +8,7 @@ import { useMediaQuery } from "react-responsive";
 
 export default function Index() {
   const desktopPhrase =
-    "I'm Kanishka Ranjan, a final year undergraduate at NIT Kurukshetra , major in Information Technology, with a passion for web development and scalable technologies. Proficient in C++,JavaScript ,TypeScript ,React.js, Next.js, Node.js, and cloud services like AWS and Docker. Always eager to expand my skills and tackle new challenges, I'm actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it's through creating seamless web experiences or exploring the future of decentralized applications, I'm excited to contribute to the tech landscape and grow alongside it.";
+    "I'm Kanishka Ranjan, a B.Tech graduate from NIT Kurukshetra, major in Information Technology, with a passion for web development and scalable technologies. Proficient in C++,JavaScript ,TypeScript ,React.js, Next.js, Node.js, and cloud services like AWS and Docker. Always eager to expand my skills and tackle new challenges, I'm actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it's through creating seamless web experiences or exploring the future of decentralized applications, I'm excited to contribute to the tech landscape and grow alongside it.";
 
   const mobilePhrase =
     "Passionate backend developer and B.Tech IT graduate from NIT Kurukshetra. Specializing in large-scale applications using JS, TS, Python, C++, MERN stack, NEXT.js and cloud technologies. Experienced in machine learning, data visualization, and creating impactful software solutions. Driven by curiosity and committed to advancing the IT field through innovative problem-solving.";
