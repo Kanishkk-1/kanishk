@@ -10,13 +10,13 @@ import Script from "next/script";
 
 const projects = [
   {
-    title: "JARVIS-Voice Assistant",
+    title: "AI Voice Assistant",
     description:
-      "An AI-powered voice assistant built with Python and GPT-3, achieving 95% voice recognition accuracy with sub-1.5 second response times.",
-    src: "/images/jarvis.png",
+      "An AI-powered voice assistant built with NEXTjs and Gemmini API, achieving 98% voice recognition accuracy with 1.5 second response time.",
+    src: "/images/voice.png",
     color: "#000000",
-    link: "https://github.com/Kanishkk-1/JARVIS---Voice-Assistant",
-    techStack: ["Machine Learning", "Gemini API", "Voice Recognition"],
+    link: "https://vocalize-ai.vercel.app/",
+    techStack: ["NEXT.js", "Gemini API", "Voice Recognition"],
   },
   {
     title: "Pixel Alchemy",

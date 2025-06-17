@@ -60,7 +60,7 @@ export default function Home() {
           src="/images/generated-image-portrait.png"
           // style={{ objectFit: "contain" }}
           width={500}
-          height={0}
+          height={500}
           priority
           alt="background"
         />
