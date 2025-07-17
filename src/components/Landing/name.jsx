@@ -20,7 +20,7 @@ const MyComponent = () => {
   return (
     <div className="landing">
       <header className="header">
-        <h1 className="mytext">kanishk.</h1>
+        <h1 className="mytext">kanishk(a)</h1>
       </header>
     </div>
   );
