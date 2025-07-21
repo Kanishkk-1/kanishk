@@ -72,15 +72,15 @@ const projects = [
     link: "https://gamble-gains.vercel.app/",
     techStack: ["React.js"],
   },
-  {
-    title: "Portfolio",
-    description:
-      "A modern, interactive portfolio website showcasing projects with dynamic animations and responsive design.",
-    src: "/images/portfolio.png",
-    color: "#EFE8D3",
-    link: "https://kanishk-chi.vercel.app/",
-    // techStack: ],
-  },
+  // {
+  //   title: "Portfolio",
+  //   description:
+  //     "A modern, interactive portfolio website showcasing projects with dynamic animations and responsive design.",
+  //   src: "/images/portfolio.png",
+  //   color: "#EFE8D3",
+  //   link: "https://kanishk-chi.vercel.app/",
+  //   // techStack: ],
+  // },
   {
     title: "Sorting Visualizer",
     description:
